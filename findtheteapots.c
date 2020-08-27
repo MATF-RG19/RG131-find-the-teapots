@@ -436,7 +436,6 @@ void displayFunction(){
             glVertex3f(3.5f, -0.5f, 3.0f);
             glVertex3f(3.5f, 1.5f, 3.0f);
             glVertex3f(3.5f, 1.5f, -1.0f);
-            glColor3f(1.0f, 1.0f, 1.0f);//removethis
             glEnd();
         
         glPopMatrix();
@@ -1170,7 +1169,6 @@ void displayFunction(){
             glVertex3f(-0.45f, -0.5f, 0.45f);
             glVertex3f(-0.45f, -0.5f, 0.5f);
             glVertex3f(-0.5f, -0.5f, 0.5f);
-            glColor3f(1.0f, 1.0f, 1.0f);//removethis
             glMaterialf(GL_FRONT_AND_BACK, GL_SHININESS, 0);
             glEnd();
 
