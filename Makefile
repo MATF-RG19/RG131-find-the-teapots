@@ -3,8 +3,8 @@ CC        = gcc
 CFLAGS    = -g -Wall
 LDFLAGS   = -lGL -lGLU -lglut -lm
 
-$(PROGRAM): findtheteapots.o  image.o
-	$(CC) -o $(PROGRAM) image.o findtheteapots.o $(LDFLAGS)
+$(PROGRAM): findtheteapots.o image.o teapots.o
+	$(CC) -o $(PROGRAM) image.o teapots.o findtheteapots.o $(LDFLAGS)
 
 .PHONY: clean dist run
 
